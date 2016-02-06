@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Crunch Time</string>
+    <string name="action_settings">Settings</string>
+    <string name="same_as">calories!\nThat\'s the same amount of work as…</string>
+    <string name="bottom_format_string">%d</string>
+    <string name="burned">You burned</string>
+</resources>

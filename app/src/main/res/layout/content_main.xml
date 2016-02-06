@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:context="com.guerrieri.mario.crunchtime.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Gallery
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_list"
+        android:spacing="@dimen/gallery_item_spacing"
+        android:clipToPadding="false"
+        android:padding="@dimen/gallery_item_margin"
+        android:layout_weight="3" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/divider_padding"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/burned"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:layout_above="@+id/calories"  />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/bottom_gallery_item_number_text_size"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:id="@+id/calories"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/same_as"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:layout_below="@+id/calories" />
+    </RelativeLayout>
+    <Gallery
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_list"
+        android:spacing="@dimen/gallery_item_spacing"
+        android:clipToPadding="false"
+        android:padding="@dimen/gallery_item_margin"
+        android:layout_weight="3" />
+    <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/list" />-->
+</LinearLayout>

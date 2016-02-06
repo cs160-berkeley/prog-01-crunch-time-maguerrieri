@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- [exercise]_reps is defined as the number of reps required to burn this many calories -->
+    <integer name="base_cal">100</integer>
+
+    <array name="exercises">
+        <item>@array/pushup</item>
+        <item>@array/situp</item>
+        <item>@array/squat</item>
+        <item>@array/leglift</item>
+        <item>@array/plank</item>
+        <item>@array/jumpingjack</item>
+        <item>@array/pullup</item>
+        <item>@array/bike</item>
+        <item>@array/walk</item>
+        <item>@array/jog</item>
+        <item>@array/swim</item>
+        <item>@array/stair</item>
+    </array>
+
+    <array name="pushup">
+        <item>@string/pushup</item>
+        <item>@string/pushup_before_past</item>
+        <item>@string/pushup_before_future</item>
+        <item>@plurals/pushup_after</item>
+        <item>@integer/pushup_reps</item>
+    </array>
+    <string name="pushup">push-up</string>
+    <string name="pushup_before_past">You did</string>
+    <string name="pushup_before_future">Doing</string>
+    <plurals name="pushup_after">
+        <item quantity="one">push-up!</item>
+        <item quantity="other">push-ups!</item>
+    </plurals>
+    <integer name="pushup_reps">350</integer>
+
+    <array name="situp">
+        <item>@string/situp</item>
+        <item>@string/situp_before_past</item>
+        <item>@string/situp_before_future</item>
+        <item>@plurals/situp_after</item>
+        <item>@integer/situp_reps</item>
+    </array>
+    <string name="situp">sit-up</string>
+    <string name="situp_before_past">You did</string>
+    <string name="situp_before_future">Doing</string>
+    <plurals name="situp_after">
+        <item quantity="one">sit-up!</item>
+        <item quantity="other">sit-ups!</item>
+    </plurals>
+    <integer name="situp_reps">200</integer>
+
+    <array name="squat">
+        <item>@string/squat</item>
+        <item>@string/squat_before_past</item>
+        <item>@string/squat_before_future</item>
+        <item>@plurals/squat_after</item>
+        <item>@integer/squat_reps</item>
+    </array>
+    <string name="squat">squat</string>
+    <string name="squat_before_past">You did</string>
+    <string name="squat_before_future">Doing</string>
+    <plurals name="squat_after">
+        <item quantity="one">squat!</item>
+        <item quantity="other">squats!</item>
+    </plurals>
+    <integer name="squat_reps">225</integer>
+
+    <array name="leglift">
+        <item>@string/leglift</item>
+        <item>@string/leglift_before_past</item>
+        <item>@string/leglift_before_future</item>
+        <item>@plurals/leglift_after</item>
+        <item>@integer/leglift_reps</item>
+    </array>
+    <string name="leglift">leg-lift</string>
+    <string name="leglift_before_past">You did leg-lifts for</string>
+    <string name="leglift_before_future">Doing leg-lifts for</string>
+    <plurals name="leglift_after">
+        <item quantity="one">minute!</item>
+        <item quantity="other">minutes!</item>
+    </plurals>
+    <integer name="leglift_reps">25</integer>
+
+    <array name="plank">
+        <item>@string/plank</item>
+        <item>@string/plank_before_past</item>
+        <item>@string/plank_before_future</item>
+        <item>@plurals/plank_after</item>
+        <item>@integer/plank_reps</item>
+    </array>
+    <string name="plank">plank</string>
+    <string name="plank_before_past">You planked for</string>
+    <string name="plank_before_future">Planking for</string>
+    <plurals name="plank_after">
+        <item quantity="one">minute!</item>
+        <item quantity="other">minutes!</item>
+    </plurals>
+    <integer name="plank_reps">25</integer>
+
+    <array name="jumpingjack">
+        <item>@string/jumpingjack</item>
+        <item>@string/jumpingjack_before_past</item>
+        <item>@string/jumpingjack_before_future</item>
+        <item>@plurals/jumpingjack_after</item>
+        <item>@integer/jumpingjack_reps</item>
+    </array>
+    <string name="jumpingjack">jumping jack</string>
+    <string name="jumpingjack_before_past">You did jumping jacks for</string>
+    <string name="jumpingjack_before_future">Doing jumping jacks for</string>
+    <plurals name="jumpingjack_after">
+        <item quantity="one">minute!</item>
+        <item quantity="other">minutes!</item>
+    </plurals>
+    <integer name="jumpingjack_reps">25</integer>
+
+    <array name="pullup">
+        <item>@string/pullup</item>
+        <item>@string/pullup_before_past</item>
+        <item>@string/pullup_before_future</item>
+        <item>@plurals/pullup_after</item>
+        <item>@integer/pullup_reps</item>
+    </array>
+    <string name="pullup">pull-up</string>
+    <string name="pullup_before_past">You did</string>
+    <string name="pullup_before_future">Doing</string>
+    <plurals name="pullup_after">
+        <item quantity="one">pull-up!</item>
+        <item quantity="other">pull-ups!</item>
+    </plurals>
+    <integer name="pullup_reps">100</integer>
+
+    <array name="bike">
+        <item>@string/bike</item>
+        <item>@string/bike_before_past</item>
+        <item>@string/bike_before_future</item>
+        <item>@plurals/bike_after</item>
+        <item>@integer/bike_reps</item>
+    </array>
+    <string name="bike">biking</string>
+    <string name="bike_before_past">You rode your bike for</string>
+    <string name="bike_before_future">Riding your bike for</string>
+    <plurals name="bike_after">
+        <item quantity="one">minutes!</item>
+        <item quantity="other">minutes!</item>
+    </plurals>
+    <integer name="bike_reps">12</integer>
+
+    <array name="walk">
+        <item>@string/walk</item>
+        <item>@string/walk_before_past</item>
+        <item>@string/walk_before_future</item>
+        <item>@plurals/walk_after</item>
+        <item>@integer/walk_reps</item>
+    </array>
+    <string name="walk">walking</string>
+    <string name="walk_before_past">You walked for</string>
+    <string name="walk_before_future">Walking for</string>
+    <plurals name="walk_after">
+        <item quantity="one">minutes!</item>
+        <item quantity="other">minutes!</item>
+    </plurals>
+    <integer name="walk_reps">20</integer>
+
+    <array name="jog">
+        <item>@string/jog</item>
+        <item>@string/jog_before_past</item>
+        <item>@string/jog_before_future</item>
+        <item>@plurals/jog_after</item>
+        <item>@integer/jog_reps</item>
+    </array>
+    <string name="jog">jogging</string>
+    <string name="jog_before_past">You jogged for</string>
+    <string name="jog_before_future">Jogging for</string>
+    <plurals name="jog_after">
+        <item quantity="one">minutes!</item>
+        <item quantity="other">minutes!</item>
+    </plurals>
+    <integer name="jog_reps">12</integer>
+
+    <array name="swim">
+        <item>@string/swim</item>
+        <item>@string/swim_before_past</item>
+        <item>@string/swim_before_future</item>
+        <item>@plurals/swim_after</item>
+        <item>@integer/swim_reps</item>
+    </array>
+    <string name="swim">swimming</string>
+    <string name="swim_before_past">You swam for</string>
+    <string name="swim_before_future">Swimming for</string>
+    <plurals name="swim_after">
+        <item quantity="one">minutes!</item>
+        <item quantity="other">minutes!</item>
+    </plurals>
+    <integer name="swim_reps">13</integer>
+
+    <array name="stair">
+        <item>@string/stair</item>
+        <item>@string/stair_before_past</item>
+        <item>@string/stair_before_future</item>
+        <item>@plurals/stair_after</item>
+        <item>@integer/stair_reps</item>
+    </array>
+    <string name="stair">stair-climbing</string>
+    <string name="stair_before_past">You climbed stairs for</string>
+    <string name="stair_before_future">Stair-climbing for</string>
+    <plurals name="stair_after">
+        <item quantity="one">minutes!</item>
+        <item quantity="other">minutes!</item>
+    </plurals>
+    <integer name="stair_reps">15</integer>
+</resources>

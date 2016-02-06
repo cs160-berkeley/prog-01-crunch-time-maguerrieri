@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/gallery_item_width"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:shadowColor="@color/colorPrimaryDark"
+    android:shadowRadius="@integer/gallery_item_shadow_radius"
+    android:padding="@dimen/gallery_item_padding"
+    android:elevation="@dimen/gallery_item_elevation"
+    android:layout_margin="@dimen/gallery_item_margin"
+    android:id="@+id/exercise_top_list_item">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_above="@+id/num_picker"
+        android:id="@+id/before" />
+    <NumberPicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:id="@+id/num_picker" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_below="@+id/num_picker"
+        android:id="@+id/after" />
+</RelativeLayout>
