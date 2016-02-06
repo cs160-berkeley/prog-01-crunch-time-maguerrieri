@@ -10,7 +10,9 @@ Main screen:
 
 ![Screenshot 1](1.png)
 
-Selecting different "target" exercises:
+Calculations:
+Select a "source" exercise by swiping through the top cards.
+As you change the number of reps/minutes of the source, the number of calories and "target" reps/minutes are updated.
 
 ![Screenshot 2](2.png)
 ![Screenshot 3](3.png)
